@@ -1,0 +1,1 @@
+javac -classpath ..\..\common\dist\hr-common.jar;..\..\dl\dist\hr-dl-1.0.0.jar;..\..\bl\build\libs\bl.jar;..\..\pl\build\libs\pl.jar;. *.java

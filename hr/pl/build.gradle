@@ -1,0 +1,7 @@
+apply plugin: 'java'
+dependencies{
+compile files('../dl/dist/hr-dl-1.0.0.jar')
+compile files('../common/dist/hr-common.jar')
+compile files('../bl/build/libs/bl.jar')
+compile fileTree(include: '*.jar',dir: 'libs')
+}
